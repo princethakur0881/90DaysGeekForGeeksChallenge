@@ -18,7 +18,7 @@ class Solution {
        int count = 1;
        
         Node currNode = head;
-        Node tempNode = head;
+        
         while(currNode.next !=head){
          count++;
             currNode  = currNode.next;
